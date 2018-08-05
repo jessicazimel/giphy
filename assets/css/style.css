@@ -1,0 +1,79 @@
+body {
+    background: #eee;
+  }
+  
+  .left-column {
+    padding: 10px 20px;
+    background: rgb(205, 11, 223);
+    border-bottom: 5px solid violet;
+  }
+  
+  .right-column {
+    background: violet;
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+  
+  .page-header {
+    border-bottom: 2px dashed white;
+  }
+  
+  .page-header h1 {
+    color: white;
+  }
+  
+  
+  .buttonArea {
+    margin-top: 20px;
+  }
+  
+  
+  .gifButton, .submit {
+    border: none;
+    margin: 7px 0;
+    background: rgb(205, 11, 223);
+    text-transform: capitalize;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    color: white;
+  }
+  
+  .gifButton:hover, .submit:hover, .gifButton:active, .gifButton:focus, .submit:focus {
+    background: orangered;
+    color: white;
+    outline: none;
+  }
+  
+  .gif {
+    margin: 20px 0;
+  }
+  
+  .gif img {
+    cursor: pointer;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .result_title {
+    margin-top: 50px;
+    color: white;
+  }
+  .result_title span {
+    color: white;
+    padding: 5px 10px;
+    background: violet;
+  }
+  
+  .label {
+    background: orangered;
+    color: white;
+    font-size: 100%;
+    line-height: 2;
+  }
+  
+  #userInput {
+    border: none;
+    background-color:white;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
